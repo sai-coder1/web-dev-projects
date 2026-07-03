@@ -9,7 +9,7 @@ function randomColor() {
     const green = Math.floor(Math.random() * 256);
     const blue = Math.floor(Math.random() * 256);
 
-    const color = `rgba(${red},${green},${blue},0.7)`;
+    const color = `rgba(${red},${green},${blue},0.4)`;
 
     overlay.style.backgroundColor = color;
 }
